@@ -14,7 +14,7 @@ function ProcessList() {
                     />
                     <span className="process-name">{process.name}</span>
                     <span className="process-stats">
-                        B:{process.burstTime} P:{process.priority}
+                        A:{process.arrivalTime} B:{process.burstTime} P:{process.priority}
                     </span>
                     <button
                         className="process-remove"
